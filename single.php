@@ -31,11 +31,11 @@ get_header();
                 By:
                 <?php the_author(); ?>
             </header>
-            <?php the_excerpt(); ?>
+            <?php the_content(); ?>
         </article>
         <?php endwhile; else : ?>
         <article>
-            <p>Vish, nun tem nada aqui!</p>
+            <p>Sorry, no posts were found!</p>
         </article>
         <?php endif; ?>
     </section>
