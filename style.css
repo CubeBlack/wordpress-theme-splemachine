@@ -48,23 +48,25 @@ body {
     grid-row-end: 2;
     height: 550px;
     
-    background-image: url(img/header.svg);
-    background-size: cover;
+    //background-image: url(img/header.svg);
+    //background-size: cover;
 }
 #header hgroup{
+    color: black;
+    text-shadow: 1px 1px rgb(26,26,26); 
+    
     padding: 10px;
     position: absolute;
     top: 100px;
     left: 70px;
-    background-color: rgb(128,128,0);
-    border:  1px, solid black;
+    background-color: rgb(173,67,64);
     
     -webkit-transform: rotate(15deg) ;
     -moz-transform: rotate(15deg) ;
     -ms-transform: rotate(15deg) ;
     transform: rotate(15deg) ;
     
-    box-shadow: 10px 10px rgba(0,0,0,0.2);
+    //box-shadow: 10px 10px rgb(137,53,51);
 }
 aside {
     grid-column-start: 1;

@@ -1,0 +1,88 @@
+  l {
+        border: 1px solid black;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    #carousel {
+        width: 100%
+    }
+
+    .carousel-item {
+        position: absolute;
+        width: 100%;
+    }
+
+    .carousel-item-a {
+        left: 0;
+        -webkit-transition: left 2s;
+        /* Safari */
+        transition: left 2s;
+        transition-timing-function: linear;
+    }
+
+    .carousel-item-b {
+        left: 100%;
+        transition: width 2s;
+        transition-timing-function: linear;
+    }
+
+    .carousel-item-c {
+        left: -100%;
+        -webkit-transition: left 2s;
+        /* Safari */
+        transition: left 2s;
+        transition-timing-function: linear;
+    }
+
+    #carousel-item-base {
+        position: absolute;
+        width: 100%;
+    }
+
+    #carousel-item-img {
+        position: absolute;
+        left: 5%;
+        width: 90%;
+        height: 200px;
+    }
+
+    .carousel-indicadores {
+        top: 10%;
+        right: 10%;
+        position: absolute;
+    }
+
+    .carousel-indicadores-base {
+        position: absolute;
+        top: 40px;
+        background: gray;
+        height: 10px;
+        width: 100%;
+    }
+
+    .carousel-indicadores-img {
+        height: 50px;
+    }
+    .carousel-engrenagem{
+   animation-name: girando;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    }
+    @keyframes girando {
+   from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+    .carousel-audio{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
