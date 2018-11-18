@@ -63,6 +63,8 @@ body {
     -moz-transform: rotate(15deg) ;
     -ms-transform: rotate(15deg) ;
     transform: rotate(15deg) ;
+    
+    box-shadow: 10px 10px rgba(0,0,0,0.2);
 }
 aside {
     grid-column-start: 1;
@@ -136,6 +138,8 @@ article{
     margin: 30px;
     background-color: dimgrey;
     padding: 10px;
+    
+     box-shadow: 10px 10px rgba(0,0,0,0.2);
 }
 
 footer{
